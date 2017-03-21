@@ -1,0 +1,28 @@
+.l-icon {
+    margin-right: 12px;
+}
+.l-icon-user {
+    color: #bd992f;
+}
+.l-icon-pwd {
+    color: #41a5bd;
+}
+.l-icon-code {
+    color: #8d5fbd;
+}
+.l-icon-code-refresh {
+    color: #a79f82;
+}
+.pwds {
+    flex-grow: 1;
+    overflow: hidden;
+}
+#eye-pwd {
+    margin-left: 12px;
+}
+.btn_reg {
+    background-color: #c39006;
+}
+
+#code-img {
+}

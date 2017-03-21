@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>绑定登录</title>
+    <!-- 引入 WeUI -->
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.4.3/weui.min.css"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/common/common.css"/>
+    <link rel="stylesheet" href="/bind/login.css"/>
+    <!--JQuery-->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/spark-md5/2.0.0/spark-md5.min.js"></script>
+    <script src="/constants.js"></script>
+    <script src="/common/common.js"></script>
+    <script src="/bind/login.js"></script>
+	
+	<body>
+        <div class="cell">
+            <a href="/index/index.html" class="fa fa-angle-left fa-2x back-arrow"></a>
+
+            <section class="hd">
+                <h1 class="page_title"><span class="bind-name"></span>登录</h1>
+            </section>
+
+            <div id="bind-container">
+                <div id="bind-item1" class="hide">绑定此<span class="bind-name"></span>的账号:</div>
+                <div class="sm">(点击按钮登录)</div>
+                <div id="bind-item2" class="hide">绑定<span class="bind-name"></span><span class="bind-nickname" style="color: orange;"></span>的账号:</div>
+            </div>
+
+            <div id="container-names" class="weui_cells weui_cells_form weui_btn_area">
+                <input id="no-name" type="button" class="weui_btn weui_btn_primary btn_name weui_btn_disabled hide" value="无" disabled>
+            </div>
+        </div>
+	</body>
+</html>

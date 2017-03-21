@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>密码登录</title>
+    <!-- 引入 WeUI -->
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.4.3/weui.min.css"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/common/common.css"/>
+    <link rel="stylesheet" href="/login/login.css"/>
+    <!--JQuery-->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/spark-md5/2.0.0/spark-md5.min.js"></script>
+    <script src="/constants.js"></script>
+    <script src="/common/common.js"></script>
+    <script src="/login/login.js"></script>
+	
+	<body>
+        <div class="cell">
+            <a href="/index/index.html" class="fa fa-angle-left fa-2x back-arrow"></a>
+
+            <section class="hd">
+                <h1 class="page_title">密码登录</h1>
+            </section>
+
+            <div class="weui_cells weui_cells_form">
+                <div class="weui_cell">
+                    <i class="weui_cell_hd fa fa-user fa-fw fa-lg l-icon l-icon-user" aria-hidden="true"></i>
+                    <div id="name-container" class="weui_cell_bd weui_cell_primary del-holder">
+                        <input id="name" type="text" class="weui_input" placeholder="用户名" onkeyup="checkName();" onblur="checkNotExist();" maxlength="15">
+                    </div>
+                </div>
+                <div id="err_name" class="weui_cells_tips weui_cell_warn hide">用户名错误</div>
+                <div class="weui_cell">
+                    <i class="weui_cell_hd fa fa-key fa-fw fa-lg l-icon l-icon-pwd" aria-hidden="true"></i>
+                    <div id="pwd-container" class="weui_cell_bd weui_cell_primary eye-holder del-holder">
+                        <input id="pwd" type="password" class="weui_input" placeholder="密码" onkeyup="checkPwd();" maxlength="20">
+                    </div>
+                </div>
+                <div id="err_pwd" class="weui_cells_tips weui_cell_warn hide">密码错误</div>
+            </div>
+            <div class="weui_btn_area">
+                <input type="button" id="submitBtn" class="weui_btn weui_btn_primary" value="登录" onclick="login();">
+            </div>
+        </div>
+	</body>
+</html>

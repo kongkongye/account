@@ -1,0 +1,127 @@
+.hide {
+    display: none !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.block {
+    display: block;
+}
+
+.yh {
+    font-family: "微软雅黑";
+}
+
+/*行内提示*/
+.nocode {
+    display: inline-block;
+    background-color: #99c2ff;
+    color: #223f7a;
+    border: 1px solid #e1e1e8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-shadow: 0 1px 0 #fff;
+    /*line-height: 18px;*/
+    padding: 0px 3px;
+}
+
+kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+}
+
+.hd {
+    padding: 2em 0;
+}
+
+.page_title {
+    text-align: center;
+    font-size: 34px;
+    color: #3cc51f;
+    font-weight: 400;
+    margin: 0 15%;
+}
+
+.cell .page_title {
+    color: #225fba;
+}
+
+.dot-sm:after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+}
+
+.dot, dot{
+    display: inline-block;
+    height: 14px;
+    min-width: 14px;
+    line-height: 14px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 14px;
+    color: #fff;
+    background: red;
+    position: relative;
+    top: -6px;
+    padding: 2px;
+}
+
+.dot-wait, dot-wait{
+    display: inline-block;
+    height: 14px;
+    min-width: 14px;
+    line-height: 14px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 14px;
+    color: #fff;
+    background: #caccca;
+    position: relative;
+    top: -2px;
+    padding: 2px;
+}
+
+.tt_success {
+    background-color: #00f500;
+}
+.tt_info {
+    background-color: #bed660;
+}
+.tt_warn {
+    background-color: #ddaa4f;
+}
+.tt_error {
+    background-color: #e64340;
+}
+
+.back-arrow {
+    color: #66af67;
+    margin: 1.3em 0.8em;
+    float: left;
+    position: absolute;
+    padding: 0 0.3em;
+}
+
+.l-icon-del {
+    color: lightgrey;
+}
+.l-icon-eye {
+    color: #a79f82;
+    margin-left: 0.6em;
+}

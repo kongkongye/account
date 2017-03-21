@@ -1,0 +1,13 @@
+.l-icon {
+    margin-right: 12px;
+}
+.l-icon-user {
+    color: #bd992f;
+}
+.btn_reg {
+    background-color: #c39006;
+}
+#bind-container {
+    display: flex;
+    justify-content: center;
+}
