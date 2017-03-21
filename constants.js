@@ -1,7 +1,7 @@
 //rest请求地址
 var DOMAIN = "rest.account.kongkongye.com";
-var PROTOCOL = "https";
-var URL = PROTOCOL+"://"+DOMAIN;
+var PROTOCOL = "";
+var URL = PROTOCOL+"//"+DOMAIN;
 
 var Constants = {
     REG_NAME_MIN_LENGTH: 3,//注册时使用的用户名最小长度
