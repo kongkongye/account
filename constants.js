@@ -12,7 +12,7 @@ var Constants = {
     MD5_MAX_LENGTH_TMP: 20,
 
     //验证码项目地址
-    CODE_URL: "https://code.kongkongye.com",
+    CODE_URL: "http://code.kongkongye.com",
 
     KEY_LOGIN_USER: "LoginUser",
     LOGIN_TOKEN_KEY: "LoginToken",
