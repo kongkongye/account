@@ -1,5 +1,5 @@
 //rest请求地址
-var DOMAIN = "rest.account.kongkongye.com";
+var DOMAIN = "rest-account.kongkongye.com";
 var PROTOCOL = "";
 var URL = PROTOCOL+"//"+DOMAIN;
 
